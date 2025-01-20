@@ -6,7 +6,7 @@ import mysql.connector
 # 2.Set up connection with your database details
 
 mydb = mysql.connector.connect(
-    host='localhost', user='root', password='Chrislil1!', database='newdb')
+    host='localhost', user='root', password='your_password', database='your_database_name')
 
 # 3. Test the connection
 print(f'Server Succesfully connected. Server Version: {
